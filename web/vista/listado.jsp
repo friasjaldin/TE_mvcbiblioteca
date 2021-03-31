@@ -33,8 +33,8 @@
                 <td><%= item.getTitulo()%></td>
                 <td><%= item.getAutor()%></td>
                 <td><%= item.getEstado()%></td>
-                <td><a href="../Principal?op=editar$id=<%=item.getId()%>">editar</a></td>
-                <td><a href="../Principal?op=eliminar$id=<%=item.getId()%>">eliminar</a></td>
+                <td><a href="../Principal?op=editar&id=<%=item.getId()%>">editar</a></td>
+                <td><a href="../Principal?op=eliminar&id=<%=item.getId()%>">eliminar</a></td>
             </tr>
             <%
                 }
